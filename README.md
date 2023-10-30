@@ -36,7 +36,13 @@ Before you begin, make sure you have the following installed on your computer:
 
 ## Program Usage
 
+**Calculator**
+
 - Enter an IP address, and the program will calculate the network, first and last IP, broadcast, and display the binary representation of the last octets.
+
+**Practise**
+
+- Calculate the network, first and last IP, and broadcast of the IP that was randomly given; then the program will automatically correct it.
 
 ## Support and Contact
 
