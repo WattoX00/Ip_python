@@ -106,7 +106,7 @@ def calculator():
                     else:
                         x+=1
             elif mask >= 0:
-                bit_needed = mask-0
+                bit_needed = mask
                 for i in range(bit_needed):
                     octet_decimal+=bit[i]
                 steps = 256-octet_decimal
