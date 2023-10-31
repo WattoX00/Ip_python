@@ -40,7 +40,7 @@ def calculator():
                 for e in range(len(ip)-1):
                     start_ip += ip[e]+"."
                 while True:
-                    if octet >= steps*x and octet <= steps*(x+1):
+                    if octet >= steps*x and octet <= (steps*(x+1))-1:
                         network = steps*x
                         network_bin = bin(network)
                         broadcast = (steps*(x+1))-1
@@ -70,7 +70,7 @@ def calculator():
                 for e in range(len(ip)-2):
                     start_ip += ip[e]+"."
                 while True:
-                    if octet >= steps*x and octet <= steps*(x+1):
+                    if octet >= steps*x and octet <= (steps*(x+1))-1:
                         network = steps*x
                         broadcast = (steps*(x+1))-1
                         first_ip = network
@@ -92,7 +92,7 @@ def calculator():
                 for e in range(len(ip)-3):
                     start_ip += ip[e]+"."
                 while True:
-                    if octet >= steps*x and octet <= steps*(x+1):
+                    if octet >= steps*x and octet <= (steps*(x+1))-1:
                         network = steps*x
                         broadcast = (steps*(x+1))-1
                         first_ip = network
@@ -115,7 +115,7 @@ def calculator():
                 for e in range(len(ip)-4):
                     start_ip += ip[e]+"."
                 while True:
-                    if octet >= steps*x and octet <= steps*(x+1):
+                    if octet >= steps*x and octet <= (steps*(x+1))-1:
                         network = steps*x
                         broadcast = (steps*(x+1))-1
                         first_ip = network
