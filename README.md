@@ -6,24 +6,26 @@ A simple Python program for calculating network details or practising their calc
 
 Before you begin, make sure you have the following installed on your computer:
 
-- [Visual Studio Code](https://code.visualstudio.com/download)
 - [Python](https://www.python.org)
+- *Optional for better experience:*
+- [Visual Studio Code](https://code.visualstudio.com/download)
 - Python extension in Visual Studio Code
 
 ## Getting Started
 
 ### Installation
 
-1. **Download and Install Visual Studio Code:**
-   - If you haven't already, download and install Visual Studio Code from the official website: [Download VS Code](https://code.visualstudio.com/download).
-
-2. **Download the Program:**
+1. **Download the Program:**
    - Visit our [GitHub repository](https://github.com/WattoX00/Ip) and click the "Code" button, then select "Download ZIP."
 
-3. **Extract the ZIP File:**
+2. **Extract the ZIP File:**
    - After the download is complete, extract the contents of the ZIP file to a location of your choice on your computer.
 
 ### Running the Program
+
+1. Run the (ip_subnetmask_practise or ip_subnetmask_calculator) python (.py) file in your prefered terminal.
+
+### Running the Program in Visual Studio Code
 
 1. **Open Visual Studio Code:**
    - Launch Visual Studio Code on your computer.
@@ -32,7 +34,7 @@ Before you begin, make sure you have the following installed on your computer:
    - Use the "File" > "Open Folder" option in Visual Studio Code and select the folder where you extracted the ZIP file.
 
 3. **Run the Program:**
-   - Open the Python script in Visual Studio Code and run the program following the provided instructions.
+   - Open the Python script (that ends with ...for_vsc.py) in Visual Studio Code and run the program following the provided instructions.
 
 ## Program Usage
 
