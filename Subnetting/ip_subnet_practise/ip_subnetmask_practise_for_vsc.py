@@ -92,24 +92,24 @@ def practise():
         first_ip_q = str(input("First Ip: "))
         last_ip_q = str(input("Last Ip: ")) 
         if network_q == network:
-            print_able+= network+"\n"
+            print_able+= "\033[32m"+network+"\033[0m"+"\n"
         else:
-            print_able+= network+"\n"
+            print_able+= "\033[31m"+network+"\033[0m"+"\n"
         
         if broadcast_q == broadcast:
-            print_able+= broadcast+"\n"
+            print_able+= "\033[32m"+broadcast+"\033[0m"+"\n"
         else:
-            print_able+= broadcast+"\n"
+            print_able+= "\033[31m"+broadcast+"\033[0m"+"\n"
         
         if first_ip_q == first_ip:
-            print_able+= first_ip+"\n"
+            print_able+= "\033[32m"+first_ip+"\033[0m"+"\n"
         else:
-            print_able+= first_ip+"\n"
+            print_able+= "\033[31m"+first_ip+"\033[0m"+"\n"
         
         if last_ip_q == last_ip:
-            print_able+= last_ip+"\n"
+            print_able+= "\033[32m"+last_ip+"\033[0m"+"\n"
         else:
-            print_able+= last_ip+"\n"
+            print_able+= "\033[31m"+last_ip+"\033[0m"+"\n"
         print(print_able)
     except (KeyboardInterrupt,ValueError):
         print("\nExiting the program.")

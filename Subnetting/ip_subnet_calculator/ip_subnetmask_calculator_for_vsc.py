@@ -4,7 +4,7 @@
     #! FOR VISUAL STUDIO CODE EDITOR
 
     Author: WattoX00
-    Date:   07/11/2023
+    Date:   30/10/2023
 '''
 
 '''
@@ -53,10 +53,10 @@ def calculator():
                         broadcast = str(start_ip)+str(broadcast).ljust(x_width)+"\t"
                         first_ip = str(start_ip)+str(first_ip).ljust(x_width)+"\t"
                         last_ip = str(start_ip)+str(last_ip).ljust(x_width)+"\t"
-                        print("Network: "+network,network_bin+"\n"
-                            "Broadcast: "+broadcast,broadcast_bin+"\n"
-                            "First Ip: "+first_ip,first_bin+"\n"
-                            "Last Ip: "+last_ip,last_bin)
+                        print("Network: \033[34m"+network,network_bin+"\n"
+                            "\033[0mBroadcast: \033[34m"+broadcast,broadcast_bin+"\n"
+                            "\033[0mFirst Ip: \033[34m"+first_ip,first_bin+"\n"
+                            "\033[0mLast Ip: \033[34m"+last_ip,last_bin+"\033[0m")
                         break
                     else:
                         x+=1
@@ -75,10 +75,10 @@ def calculator():
                         broadcast = (steps*(x+1))-1
                         first_ip = network
                         last_ip = broadcast
-                        print("Network: "+str(start_ip)+str(network)+".0".ljust(x_width)+"\t","00000000"+"\n"
-                            "Broadcast: "+str(start_ip)+str(broadcast)+".255".ljust(x_width)+"\t","11111111"+"\n"
-                            "First Ip: "+str(start_ip)+str(first_ip)+".1".ljust(x_width)+"\t","00000001"+"\n"
-                            "Last Ip: "+str(start_ip)+str(last_ip)+".254".ljust(x_width)+"\t","11111110")
+                        print("Network: \033[34m"+str(start_ip)+str(network)+".0".ljust(x_width)+"\t","00000000"+"\n"
+                            "\033[0mBroadcast: \033[34m"+str(start_ip)+str(broadcast)+".255".ljust(x_width)+"\t","11111111"+"\n"
+                            "\033[0mFirst Ip: \033[34m"+str(start_ip)+str(first_ip)+".1".ljust(x_width)+"\t","00000001"+"\n"
+                            "\033[0mLast Ip: \033[34m"+str(start_ip)+str(last_ip)+".254".ljust(x_width)+"\t","11111110"+"\033[0m")
                         break
                     else:
                         x+=1
@@ -97,10 +97,10 @@ def calculator():
                         broadcast = (steps*(x+1))-1
                         first_ip = network
                         last_ip = broadcast
-                        print("Network: "+str(start_ip)+str(network)+".0.0".ljust(x_width)+"\t","00000000"+"\n"
-                            "Broadcast: "+str(start_ip)+str(broadcast)+".255.255".ljust(x_width),"11111111"+"\n"
-                            "First Ip: "+str(start_ip)+str(first_ip)+".0.1".ljust(x_width)+"\t","00000001"+"\n"
-                            "Last Ip: "+str(start_ip)+str(last_ip)+".255.254".ljust(x_width)+"\t","11111110")
+                        print("Network: \033[34m"+str(start_ip)+str(network)+".0.0".ljust(x_width)+"\t","00000000"+"\n"
+                            "\033[0mBroadcast: \033[34m"+str(start_ip)+str(broadcast)+".255.255".ljust(x_width),"11111111"+"\n"
+                            "\033[0mFirst Ip: \033[34m"+str(start_ip)+str(first_ip)+".0.1".ljust(x_width)+"\t","00000001"+"\n"
+                            "\033[0mLast Ip: \033[34m"+str(start_ip)+str(last_ip)+".255.254".ljust(x_width)+"\t","11111110"+"\033[0m")
                         break
 
                     else:
@@ -120,10 +120,10 @@ def calculator():
                         broadcast = (steps*(x+1))-1
                         first_ip = network
                         last_ip = broadcast
-                        print("Network: "+str(start_ip)+str(network)+".0.0.0".ljust(x_width)+"\t","00000000"+"\n"
-                            "Broadcast: "+str(start_ip)+str(broadcast)+".255.255.255".ljust(x_width)+"\t","11111111"+"\n"
-                            "First Ip: "+str(start_ip)+str(first_ip)+".0.0.1".ljust(x_width)+"\t","00000001"+"\n"
-                            "Last Ip: "+str(start_ip)+str(last_ip)+".255.255.254".ljust(x_width)+"\t","11111110")
+                        print("Network: \033[34m"+str(start_ip)+str(network)+".0.0.0".ljust(x_width)+"\t","00000000"+"\n"
+                            "\033[0mBroadcast: \033[34m"+str(start_ip)+str(broadcast)+".255.255.255".ljust(x_width)+"\t","11111111"+"\n"
+                            "\033[0mFirst Ip: \033[34m"+str(start_ip)+str(first_ip)+".0.0.1".ljust(x_width)+"\t","00000001"+"\n"
+                            "\033[0mLast Ip: \033[34m"+str(start_ip)+str(last_ip)+".255.255.254".ljust(x_width)+"\t","11111110"+"\033[0m")
                         break
                     else:
                         x+=1
