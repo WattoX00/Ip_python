@@ -36,4 +36,4 @@ Feel free to reach out if you have any questions or encounter issues with the co
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
