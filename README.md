@@ -7,8 +7,6 @@ A simple Python program for calculating network details or practising their calc
 Before you begin, make sure you have the following installed on your computer:
 
 - [Python](https://www.python.org)
-- *Optional for better experience:*
-- [Visual Studio Code](https://code.visualstudio.com/download)
 - Python extension in Visual Studio Code
 
 ## Getting Started
@@ -25,26 +23,15 @@ Before you begin, make sure you have the following installed on your computer:
 
 1. Run the (ip_subnetmask_practise or ip_subnetmask_calculator) python (.py) file in your prefered terminal.
 
-### Running the Program in Visual Studio Code
-
-1. **Open Visual Studio Code:**
-   - Launch Visual Studio Code on your computer.
-
-2. **Open the Project:**
-   - Use the "File" > "Open Folder" option in Visual Studio Code and select the folder where you extracted the ZIP file.
-
-3. **Run the Program:**
-   - Open the Python script (that ends with ...for_vsc.py) in Visual Studio Code and run the program following the provided instructions.
-
 ## Program Usage
 
 **Calculator**
 
-- Enter an IP address, and the program will calculate the network, first and last IP, broadcast, and display the binary representation of the last octets.
+- Enter an IP address, and the program will calculate the network, broadcast, first and last IP, and display the binary representation of their last octets.
 
 **Practise**
 
-- Calculate the network, first and last IP, and broadcast of the IP that was randomly given; then the program will automatically correct it.
+- Calculate the network, broadcast, first and last IP of the IP that was randomly given; then the program will automatically correct it.
 
 ## Support and Contact
 
@@ -52,4 +39,4 @@ Feel free to reach out if you have any questions or encounter issues with the co
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
