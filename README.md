@@ -7,9 +7,6 @@ A simple Python program for calculating network details or practising their calc
 Before you begin, make sure you have the following installed on your computer:
 
 - [Python](https://www.python.org)
-- Python extension in Visual Studio Code
-
-## Getting Started
 
 ### Installation
 
